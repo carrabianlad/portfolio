@@ -273,7 +273,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-h :ighlight-color #FFF498
+    -webkit-tap-h: ighlight-color #FFF498
 }
 
 body {
@@ -1259,15 +1259,15 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/scene3.jpeg")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-image: url("../img/scene2.jpeg")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/scene1.jpeg")
 }
 
 .about--options>a:hover h3 {
@@ -1870,4 +1870,56 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
     -webkit-transition-delay: .16s;
     transition-delay: .16s
+}
+
+/* Style the form container */
+#formpage {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style form labels */
+.labelo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style form inputs */
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    background-color: #282828;
+    border: 1px solid #2c2a2a;
+    border-radius: 6px;
+  }
+
+/* Style form button */
+#subbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change button background color on hover */
+#subbtn:hover {
+    background: none;
+    border:1px solid white ;
+    color: #4CAF50;
+}
+
+/* Optional: Style form container background and spacing */
+/* body {
+    background-color: #f2f2f2;
+    padding: 20px;
+} */
+#formpage{
+    /* background-color: #232020; */
+    /* height: 800px; */
+    /* width: 500px; */
+    
 }

@@ -278,3 +278,6 @@ $( document ).ready(function() {
   transitionLabels();
 
 });
+function redirect() {
+  window.location.href = "https://chat.openai.com/c/5f35a30d-483c-4952-82ec-37c3d0713065";
+}
