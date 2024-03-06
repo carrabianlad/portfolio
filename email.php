@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
 
     // Set up the email parameters
-    $to = "your_email@example.com";
+    $to = "stellarstarkonyt@gmail.com";
     $subject = "New Email Submission";
     $message = "Email: " . $email;
     $headers = "From: " . $email;
