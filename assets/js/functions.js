@@ -281,3 +281,14 @@ $( document ).ready(function() {
 function redirect() {
   window.location.href = "https://chat.openai.com/c/5f35a30d-483c-4952-82ec-37c3d0713065";
 }
+<script>
+document.getElementById('downloadButton').addEventListener('click', function() {
+    var downloadLink = document.createElement('a');
+    downloadLink.setAttribute('href', 'assets/img/resume.jpg');
+    downloadLink.setAttribute('download', 'sarthaknarula.jpg');
+    downloadLink.style.display = 'none';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+});
+</script>

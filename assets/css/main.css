@@ -1944,3 +1944,9 @@ body {
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
+.icono{
+    border-radius: 50%;
+}
+.ico{
+    border-radius: 50%;
+}
